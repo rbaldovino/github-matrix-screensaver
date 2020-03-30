@@ -86,8 +86,8 @@
                 ctx.shadowColor = '#FFF';
                 ctx.fillStyle = "#FFF";
             } else {
-                ctx.fillStyle = "#912CEE";
-                ctx.shadowColor = '#912CEE';
+                ctx.fillStyle = "#D8BFD8";
+                ctx.shadowColor = '#D8BFD8';
             }
 
             var char = text[y] || '';
@@ -257,8 +257,8 @@
                     ctx.shadowOffsetY = 0;
                     ctx.shadowBlur = 3;
                     ctx.font = options.fontSize + "px 'Courier New'";
-                    ctx.fillStyle = "#0F0";
-                    ctx.shadowColor = '#0F0';
+                    ctx.fillStyle = "#D8BFD8";
+                    ctx.shadowColor = '#D8BFD8';
 
                     var posX = x * options.fontSize;
                     var posY = y * options.fontSize;
